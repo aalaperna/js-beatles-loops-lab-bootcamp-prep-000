@@ -14,7 +14,7 @@ while (i < array.length) {
   newArray.push('${array[i] + "!!!"}')
   i++
   }
-  return newFacts
+  return newArray
 }
 
 function iLoveTheBeatles(n) {
