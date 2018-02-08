@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   var array = []
   let i = facts.length
   let j = 0
-  while (i != 0) {
+  while (i !== 0) {
     array.push('${facts[j]}' + "!!!");
     --i;
     ++j
